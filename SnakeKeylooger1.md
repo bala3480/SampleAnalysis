@@ -84,9 +84,9 @@ Second stage decryption loop:
 		}
     
     
-    The loop returns another dll file and it is invoked using method info and invoke function.
+The loop returns another dll file and it is invoked using method info and invoke function.
     
-    {Name = "Himentater" FullName = "Munoz.Himentater"}
+{Name = "Himentater" FullName = "Munoz.Himentater"}
     
     public static byte[] SearchResult(byte[] BinaryCompatibility, string Opcode)
 		{
