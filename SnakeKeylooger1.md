@@ -6,9 +6,8 @@ File is packed , since the entropy value is high (Entropy: 7.53124(packed))
 
 
 Decryption loop: 
-
-int num = (text.Length + 1) / 3;
-			byte[] array = new byte[num];
+	int num = (text.Length + 1) / 3;
+		byte[] array = new byte[num];
 			for (int i = 0; i < num; i++)
 			{
 				char c = text[3 * i];
@@ -112,14 +111,13 @@ Second stage decryption loop:
 			Array.Resize<byte>(ref array2, BinaryCompatibility.Length - 1);
 			return array2;
 		}
+The above loop decrypts the acutal payload and invoked the below function.
+   
+{Name = "Gq" FullName = "KW.Gq"}
     
-    The above loop decrypts the acutal payload and invoked the below function.
+The acutal payload:
+08b07fb8ba550a1b9e1fa53797d69dc6
     
-    {Name = "Gq" FullName = "KW.Gq"}
-    
-    The acutal payload:
-    08b07fb8ba550a1b9e1fa53797d69dc6
-    
-    It is resolving virutalALlocEX,CreateProcessA, NTunmapviewsection, SetThreadContext, ReadProcessMEmory (codeInjection)
-    Also tries to connect to checkip.dyndns.org
-    found strings related to snakeKeylogger.
+It is resolving virutalALlocEX,CreateProcessA, NTunmapviewsection, SetThreadContext, ReadProcessMEmory (codeInjection)
+Also tries to connect to checkip.dyndns.org & api.telegram.com/bot
+found strings related to snakeKeylogger.
