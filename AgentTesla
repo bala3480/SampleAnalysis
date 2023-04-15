@@ -1,1 +1,16 @@
 Hash : https://www.virustotal.com/gui/file/d866999cf2f0aa7f45e78c025cf983f2c3633370af50c645203eca1f71273497
+
+File is packed. unable to find any suspicious strings. 
+
+Upon executing the file, file got self copied to below location and scheduled a task.
+
+C:\Users\Administrator\AppData\Local\tbueypn\uykrz.exe
+C:\Windows\System32\Tasks\uykrz
+
+Same verifed in regshot:
+
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\uykrz
+HKLM\SYSTEM\ControlSet001\Control\Power\Profile\BootCheck
+HKLM\SYSTEM\CurrentControlSet\Control\Power\Profile\BootCheck
+
+
